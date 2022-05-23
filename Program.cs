@@ -12,7 +12,7 @@ namespace ProducerEventHub
     {
 
         static string eventHubName = "firsteventhub";
-        static string connectionString = "Endpoint=sb://droisysevenhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=vlXWP6DuhKZS7k/m7OXle7Vx1ZokyNAgIYLnd1STD5Q=";
+        static string connectionString = "Endpoint=sb://myevenhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=vlyudP6DuhKZS7k/m7OXle7Vx1ZokyNAgIYLnd1STD5Q=";
         // The Event Hubs client types are safe to cache and use as a singleton for the lifetime
         // of the application, which is best practice when events are being published or read regularly.
         static EventHubProducerClient producerClient;
